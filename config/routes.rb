@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  root "usuarios#index"
+
   get "/usuario" => "users#index"
   get "/usuario/:id" => "users#show"
   post "/usuario/:id" => "users#update"
